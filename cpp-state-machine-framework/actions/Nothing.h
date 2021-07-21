@@ -8,4 +8,4 @@ struct Nothing
 	}
 };
 
-static constexpr auto stringify(Types<Nothing>) { return StaticString{"Nothing"}; }
+// static constexpr auto stringify(Types<Nothing>) { return StaticString{"Nothing"}; }
